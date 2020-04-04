@@ -36,8 +36,6 @@ function showEmail($myfile, $copyfile)
         }
     }
     copy($copyfile, $myfile);
-    fclose($copy);
-    fclose($file);
 }
 
 ?>
